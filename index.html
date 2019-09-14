@@ -70,8 +70,9 @@
    </section>
    <section>
     <h2>Заинтересовались?</h2>
-    <p>Укажите предполагаемые даты поездки</p>
-    <!--Здесь будет форма-->
+    <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
+    
+    <img src="img/map.png" alt="Карта штата" wigth="1200" height="593">
    </section>
   </main> 
   <footer>
@@ -83,5 +84,27 @@
    </ul>
    <p>Website by <a href="#">HTML academy</a></p>
   </footer> 
+  <form method="post" action="#">
+      <h3>Поиск гостиницы в Седоне</h3>
+      <p>
+        <label for="date">Дата заезда</label>
+        <input type="date" name="date-on" id="date-on" value="24 апреля 2017">
+      </p> 
+      <p>      
+        <label for="date-off">Дата выезда</label>
+        <input type="date" name="date-off" id="date-off" value="4 июля 2017">
+      </p>
+      <p>
+        <label for="grown">Взрослые:</label>
+        <button type="button">-</button>
+        <input type="number" name="grown" id="grown" value="2">
+        <button type="button">+</button>
+      </p> 
+      <p>
+      <label for="child">Дети:</label>
+      <input type="number" name="child" id="child" value="0">
+      </p>
+      <button type="submit">Найти</button>
+    </form>
   </body>
 </html>
