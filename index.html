@@ -82,17 +82,17 @@
      <li><a href="#">Facebook</a></li>
      <li><a href="#">Youtube</a></li>
    </ul>
-   <p>Website by <a href="#">HTML academy</a></p>
+   <p>Website by <a href="https://htmlacademy.ru/intensive/htmlcss">HTML academy</a></p>
   </footer> 
   <form method="post" action="#">
       <h3>Поиск гостиницы в Седоне</h3>
       <p>
-        <label for="date">Дата заезда</label>
-        <input type="date" name="date-on" id="date-on" value="24 апреля 2017">
+        <label for="date-on">Дата заезда</label>
+        <input type="text" name="date-on" id="date-on" placeholder="24 апреля 2017">
       </p> 
       <p>      
         <label for="date-off">Дата выезда</label>
-        <input type="date" name="date-off" id="date-off" value="4 июля 2017">
+        <input type="text" name="date-off" id="date-off" placeholder="4 июля 2017">
       </p>
       <p>
         <label for="grown">Взрослые:</label>
@@ -101,8 +101,10 @@
         <button type="button">+</button>
       </p> 
       <p>
-      <label for="child">Дети:</label>
-      <input type="number" name="child" id="child" value="0">
+        <label for="child">Дети:</label>
+        <button type="button">-</button>
+        <input type="number" name="child" id="child" value="0">
+        <button type="button">+</button>
       </p>
       <button type="submit">Найти</button>
     </form>
