@@ -20,7 +20,32 @@
     </header>
 	<main>
       <section>
-        <h1>Выбор гостиницы</h1>  
+        <h1>Выбор гостиницы</h1> 
+        <form method="post" action="#">
+          <fieldset>
+            <legend>Инфраструктура:</legend>
+            <label><input type="checkbox" name="pool" checked>
+            Бассейн</label>
+            <label><input type="checkbox" name="parking">
+            Парковка</label>
+            <label><input type="checkbox" name="wi-fi">
+            Wi-fi</label>
+          </fieldset> 
+          <fieldset>
+            <legend>Тип жилья:</legend>
+            <label><input type="checkbox" name="hotel" checked>
+            Гостиница</label>
+            <label><input type="checkbox" name="motel" checked>
+            Мотель</label>
+            <label><input type="checkbox" name="apartment" checked>
+            Апартаменты</label>    
+          </fieldset>     
+          <fieldset>
+            <legend>Стоимость в сутки (Р):</legend>
+            <p><span>От 0</span><span>до 3000</span></p> 
+          </fieldset>    
+          <button type="submit">Показать</button>          
+        </form>        
         <p>Найдено: 3 <span>Сортировка:</span></p>
         <ul>
           <a href="catalog.html"><li>По цене</li></a>
