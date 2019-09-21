@@ -1,3 +1,130 @@
-.background-photo {
-	background-image: url("img/background-photo.jpg");
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "PT Sans", sans-serif;
+	text-transform: uppercase;
+}
+a {
+	text-decoration: none;
+}
+.header-items {
+	list-style: none;
+}
+.header-items a {
+    width: 93px;
+    height: 12px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.86;
+    color: #000000;
+}
+.header-items a:hover {
+    color: #81b3d2;
+}  
+.header-items .first:visited {
+    color: #766357;
+} 
+.header-items .last:visited {
+    color: #766357;
+}    
+.header-items a:active {
+    color: rgba(0, 0, 0, 0.3);
+} 
+.image {
+	background-image: url("img/image.png");
+	background-repeat: no-repeat;
+	background-size: 1200px 773px;
+}
+.white-back {
+	width: 1200px;
+    height: 216px;
+}
+.footer-back {
+	width: 1200px;
+    height: 120px;
+    opacity: 0.9;
+} 
+.hashtag {
+	width: 136px;
+    height: 16px;
+    font-family: "PT Sans", sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+}
+.footer-social {
+	list-style: none;
+}
+.footer-social a {
+    background-color: #81b3d2; 
+    color: #000000;
+}
+.footer-social a:hover {
+    background-color: #669ec0;
+} 
+.footer-social a:active {
+    background-color: #5496bd;
+}
+.footer-copyright .button {
+    color: #231f20;
+}
+.footer-copyright .button:hover {
+    color: #81b3d2;
+}
+.footer-copyright .button:active {
+    color: #bdbbbc;
+}
+.catalog-item h2 {
+    font-size: 21px;
+    line-height: 26px;
+}
+.catalog-item h2:hover {
+    color: #81b3d2;
+}
+.catalog-item h2:active {
+    color: rgba(0, 0, 0, 0.3)
+}    
+.catalog-item p {
+	color: #333333;
+    font-size: 14px;
+    line-height: 21px;
+}
+.catalog-item a {
+	color: #ffffff;
+    font-size: 14px;
+    line-height: 21px;
+}
+.catalog-item .button-detalied {
+	background-color: #81b3d2;
+    width: 110px;
+    height: 27px;
+}
+.catalog-item .button-detalied:hover {
+    background-color: #669ec0;
+}
+.catalog-item .button-detalied:active {
+    opacity: 0.3;
+    background-color: #5496bd;
+}
+.catalog-item .button-book {
+	background-color: #766357;
+    width: 142px;
+    height: 27px;
+}
+.catalog-item .button-book:hover {
+    background-color: #604e43;
+}
+.catalog-item .button-book:active {
+    opacity: 0.3;
+    background-color: #503e33;
+}
+.catalog-rating span:first-child {
+    background-color: #f2f2f2;
+    font-size: 14px;
+    line-height: 21px;
+    color: #666666;
+}
+.catalog-rating span:last-child {
+    background-image: url("img/star.svg");
+    background-size: 18px 17px;
+	background-repeat: no-repeat;
 }
